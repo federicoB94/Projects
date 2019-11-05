@@ -1,0 +1,20 @@
+when s_buildword =>	
+    if cnt_o < 3 then
+       we_out <= '1';
+       word <= s_word; -- NEW
+       cnt_o := cnt_o + 1;                   
+       if bcnt = 0 then
+          s_word(RXBITS-1 downto 0 ) <= s_rxd; -- NEW
+          bcnt  := N_BYTES - 1;
+          state <= s_stop;
+          ready_s <= '1';
+       else
+          s_word(((bcnt+1)*RXBITS-1) downto (bcnt*RXBITS )) <= s_rxd; -- NEW
+          bcnt  := bcnt - 1;
+          state <= s_getbyte;
+          ready_s <= '0';
+       end if; 
+    else	
+       we_out <= '0';
+       cnt_o := 0;                   
+    end if;

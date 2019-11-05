@@ -1,0 +1,20 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/agostini/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto bec1d1a620d84cf89e28647a5789bd6c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.pulses_generator [\pulses_generator(pulse_dist=21)...]
+Compiling architecture ila_0_arch of entity xil_defaultlib.ila_0 [ila_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.break_measure [\break_measure(done_time=1000000...]
+Compiling architecture vio_1_arch of entity xil_defaultlib.vio_1 [vio_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.top
+Built simulation snapshot top_behav

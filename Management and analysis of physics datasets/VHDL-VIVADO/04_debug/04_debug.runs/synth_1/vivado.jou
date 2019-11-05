@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 19 15:06:15 2019
+# Process ID: 9078
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/04_debug/04_debug.runs/synth_1
+# Command line: vivado -log counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter.tcl
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/04_debug/04_debug.runs/synth_1/counter.vds
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/04_debug/04_debug.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source counter.tcl -notrace

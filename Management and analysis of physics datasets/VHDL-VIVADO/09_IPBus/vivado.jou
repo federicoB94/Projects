@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 25 14:59:42 2019
+# Process ID: 9439
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus
+# Command line: vivado
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/vivado.log
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

@@ -1,0 +1,22 @@
+Release 14.7 - ngc2edif P_INT.20190328 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design tri_mode_eth_mac_v5_5.ngc ...
+WARNING:NetListWriters:298 - No output is written to tri_mode_eth_mac_v5_5.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   TXGEN/TX_SM1/GND_52_o_GND_52_o_sub_12_OUT<7 : 2> on block TEN_100_MAC_GEN is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   TXGEN/TX_SM1/DATA_REG[0][7]_GND_52_o_mux_60_OUT<5 : 1> on block
+   TEN_100_MAC_GEN is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus TXGEN/TX_SM1/PREAMBLE_PIPE<13 : 0> on
+   block TEN_100_MAC_GEN is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file tri_mode_eth_mac_v5_5.edif ...
+ngc2edif: Total memory usage is 110268 kilobytes
+

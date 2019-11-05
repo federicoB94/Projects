@@ -1,0 +1,5 @@
+<node id="TOP">
+  <node id="sq_regs"  address="0x00000000"  mode="block" size="0x100" description="square registers" permission = "r" fwinfo="endpoint;width=10" />
+  <node id="fir_regs" address="0x00001000"  mode="block" size="0x100" description="fir registers"    permission = "r" fwinfo="endpoint;width=10" />
+  <node id="size_reg" address="0x00002000"                            description="size"             permission = "r" fwinfo="endpoint;width=1" />
+</node>

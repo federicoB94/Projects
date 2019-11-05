@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 25 14:59:42 2019
+# Process ID: 9439
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus
+# Command line: vivado
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/vivado.log
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/agostini/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'tri_mode_eth_mac_v5_5' is locked:
+* IP definition 'tri_mode_eth_mac (5.5)' for IP 'tri_mode_eth_mac_v5_5' was not found in the IP Catalog. * IP definition 'tri_mode_eth_mac (5.5)' for IP 'tri_mode_eth_mac_v5_5' has been replaced in the IP Catalog by 'Tri Mode Ethernet MAC (9.0)'. * Current project part 'xc7a35tcsg324-1' and the part 'xc7k325tfbg900-1' used to customize the IP 'tri_mode_eth_mac_v5_5' do not match.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 6469.266 ; gain = 115.543 ; free physical = 132 ; free virtual = 12655
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:06:40
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43333A
+set_property PROGRAM.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/impl_1/top_level.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210319A43333A
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 25 16:09:29 2019...

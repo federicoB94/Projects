@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/07_fsm_pulse_generator/07_fsm_pulse_generator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/07_fsm_pulse_generator/07_fsm_pulse_generator.srcs/sources_1/ip/vio_1/sim/vio_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vio_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/07_fsm_pulse_generator/07_fsm_pulse_generator.srcs/sources_1/ip/ila_0/sim/ila_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ila_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Lessons/Code/Lab7/Lab7.srcs/sources_1/new/break_measure.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'break_measure'
+WARNING: [VRFC 10-3093] actual for formal port 'probe3' is neither a static name nor a globally static expression [/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Lessons/Code/Lab7/Lab7.srcs/sources_1/new/break_measure.vhd:102]
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Lessons/Code/Lab7/Lab7.srcs/sources_1/new/pulses_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pulses_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Lessons/Code/Lab7/Lab7.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'

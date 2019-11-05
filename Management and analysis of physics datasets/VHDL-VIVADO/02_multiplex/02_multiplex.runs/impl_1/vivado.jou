@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 18 14:40:38 2019
+# Process ID: 9443
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/02_multiplex/02_multiplex.runs/impl_1
+# Command line: vivado -log mux41.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux41.tcl -notrace
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/02_multiplex/02_multiplex.runs/impl_1/mux41.vdi
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/02_multiplex/02_multiplex.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mux41.tcl -notrace

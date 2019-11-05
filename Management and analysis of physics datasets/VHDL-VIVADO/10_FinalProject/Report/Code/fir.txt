@@ -1,0 +1,50 @@
+case state_fsm is
+     
+     when s_idle =>
+       if en_in = '1' and en_p = '0' then
+         state_fsm <= s_read;
+         selector <= '1';    -- take 'ownership' of square register
+         we_s <= '0';        -- don't allow writing: still reading
+       else
+         state_fsm <= s_idle;
+         selector <= '0';
+       end if;
+       cnt := 0;
+     
+     when s_read =>
+       if cnt < N_sample then
+         addr_out0 <= std_logic_vector(to_unsigned(cnt, addr_out0'length));
+         we_s <= '0';
+         selector <= '1'; --we say the mux to look at our address
+         state_fsm <= s_filter;
+       else
+         state_fsm <= s_idle; --finished
+       end if;
+       
+     when s_filter =>
+     
+       o0 <= fir_in;
+       
+       m0 <= signed(o0) * C0;
+       m1 <= signed(o1) * C1;
+       m2 <= signed(o2) * C2;
+       m3 <= signed(o3) * C3;
+       m4 <= signed(o4) * C4;
+       
+       s0 <= m0;
+       s1 <= s0 + m1;
+       s2 <= s1 + m2;
+       s3 <= s2 + m3;
+       s4 <= s3 + m4;
+       
+       x_sum <= std_logic_vector(resize(SHIFT_RIGHT(s4, Q), N));
+       
+       state_fsm <= s_write;
+         
+     when s_write =>
+       we_s <= '1';
+       addr_out1 <= std_logic_vector(to_unsigned(cnt,addr_out1'length));
+       cnt := cnt + 1;
+       state_fsm <= s_read;
+        
+     end case;

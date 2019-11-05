@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 19 16:56:59 2019
+# Process ID: 23279
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/05_fir/05_fir.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/05_fir/05_fir.sim/sim_1/behav/xsim/xsim.dir/tb_fir_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/05_fir/05_fir.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/05_fir/05_fir.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/05_fir/05_fir.sim/sim_1/behav/xsim/xsim.dir/tb_fir_behav/webtalk/xsim_webtalk.tcl -notrace

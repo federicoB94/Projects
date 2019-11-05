@@ -1,0 +1,17 @@
+when s_low =>
+    if sample_cnt = SAMPLE_N-1 then
+     state_fsm <= s_idle;
+     we_out <= '0';
+    else
+     if period_cnt < PERIOD then
+       we_out <= '1';
+       state_fsm <= s_low;  
+     else
+       state_fsm <= s_high;
+       period_cnt := 0;
+     end if;  
+    end if;
+    address_out <= std_logic_vector(to_unsigned(sample_cnt, address_out'length));
+    y <= std_logic_vector(to_signed(-1024, y'length));
+    period_cnt := period_cnt + 1;
+    sample_cnt := sample_cnt + 1;

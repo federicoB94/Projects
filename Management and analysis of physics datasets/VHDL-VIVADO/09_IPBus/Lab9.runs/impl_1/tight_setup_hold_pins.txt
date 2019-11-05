@@ -1,0 +1,55 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |                clk_ipb_i |                                                                              dpram/ram_reg/ADDRBWRADDR[6]|
+|              sys_clk_pin |                clk_ipb_i |                                                                              dpram/ram_reg/ADDRBWRADDR[5]|
+|              sys_clk_pin |                clk_ipb_i |                                                                              dpram/ram_reg/ADDRBWRADDR[7]|
+|              sys_clk_pin |                clk_ipb_i |                                                                              dpram/ram_reg/ADDRBWRADDR[8]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[6]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                     dpram/ram_reg/ENBWREN|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[4]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[5]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[0]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[7]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[3]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[2]|
+|              sys_clk_pin |                clk_ipb_i |                                                                                    dpram/ram_reg/DIBDI[1]|
+|                clk_ipb_i |              sys_clk_pin |                                                                               flash_reader/bcnt_reg[17]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                               flash_reader/bcnt_reg[31]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                                flash_reader/bcnt_reg[3]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                                flash_reader/bcnt_reg[2]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                     flash_reader/flash_master/ready_reg/R|
+|                clk_ipb_i |              sys_clk_pin |                                                       flash_reader/flash_master/FSM_onehot_state_reg[2]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                       flash_reader/flash_master/FSM_onehot_state_reg[1]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                       flash_reader/flash_master/FSM_onehot_state_reg[0]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                      flash_reader/flash_master/cs_s_reg/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                flash_reader/FSM_sequential_state_reg[0]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/start_p_reg/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[3]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[6]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[9]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                  flash_reader/flash_master/wcnt_reg[26]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                  flash_reader/flash_master/wcnt_reg[28]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[4]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                  flash_reader/flash_master/wcnt_reg[23]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                  flash_reader/flash_master/wcnt_reg[14]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[2]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[7]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[1]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                   flash_reader/flash_master/wcnt_reg[8]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                                flash_reader/bcnt_reg[0]/S|
+|                clk_ipb_i |              sys_clk_pin |                                                                               flash_reader/bcnt_reg[22]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                               flash_reader/bcnt_reg[28]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                               flash_reader/bcnt_reg[27]/R|
+|                clk_ipb_i |              sys_clk_pin |                                                                                flash_reader/bcnt_reg[6]/R|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                          Inst_system_clocks/rst_125_reg/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_3/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_4/D|
+|              sys_clk_pin |                clk_ipb_i |                                                                          Inst_system_clocks/rst_ipb_reg/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_2/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_5/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                  Inst_system_clocks/rst_125_reg_replica/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_1/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_6/D|
+|              sys_clk_pin |           s_sysclk_x2_in |                                                                Inst_system_clocks/rst_125_reg_replica_7/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

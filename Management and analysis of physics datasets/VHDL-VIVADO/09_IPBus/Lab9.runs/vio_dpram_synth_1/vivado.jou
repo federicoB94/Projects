@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 25 10:59:17 2019
+# Process ID: 12234
+# Current directory: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/vio_dpram_synth_1
+# Command line: vivado -log vio_dpram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio_dpram.tcl
+# Log file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/vio_dpram_synth_1/vio_dpram.vds
+# Journal file: /mnt/DATA/SharedFolders/University/Magistrale/Anno1_Sem1/MAPD/FPGA/Exercise/09_IPBus/Lab9.runs/vio_dpram_synth_1/vivado.jou
+#-----------------------------------------------------------
+source vio_dpram.tcl -notrace
