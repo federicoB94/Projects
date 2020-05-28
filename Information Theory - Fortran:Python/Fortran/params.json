@@ -1,0 +1,14 @@
+{
+    "noplot": false,
+    "N": 7,
+    "ll": 0.2,
+    "dim2": 0,
+    "alpha": 2,
+    "g": 0.1,
+    "updates": 200,
+    "iter": 500,
+    "burnin": 450,
+    "autocorr": 1,
+    "print": 1,
+    "out": "out.txt"
+}
