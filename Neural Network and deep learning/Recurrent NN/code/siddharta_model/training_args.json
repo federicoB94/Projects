@@ -1,0 +1,11 @@
+{
+    "datasetpath": "siddharta.txt",
+    "crop_len": 100,
+    "alphabet_len": 40,
+    "hidden_units": 128,
+    "layers_num": 2,
+    "dropout_prob": 0.3,
+    "batchsize": 154,
+    "num_epochs": 1000,
+    "out_dir": "model"
+}

@@ -1,0 +1,82 @@
+MODELLO GENERATO DALLA RETE CON 128 UNITà E DUE LAYER USANDO IL GENERATORORE CHE NON CAMPIONA DALLA SIGMOID
+
+python Generator_no_sig.py --model_dir "./modelli_colab/100000_hidden_units_128_layers_num=2" --chapter_seed "siddhartha had been"
+
+
+siddhartha had beenihhe ta h hbgggww,l, rrrriuuuudd h ha hucc,mmpppoootth h h bbbbb,,eeeerrrrrrtwww hh hyy..csshhhh....hh fffffwttwwhhbb,,hh hhhruummmdddhh ia uurrriimmmddd 
+aauu tooommmmdddh aa eeooommmhh  yaa sttoooimmdddd aa uurrtttmmmmmmdddrrrigwwwd h iii h iggggwwooppppddddhnnibhh hhbbbwwshh hhh bbceeehhhh hh bbhhh aah  frrrfttmmdddddniiiiur rrugtwwddd  aa  nn ttgggww,,
+
+dddrriiiuu ooiihhdd aaa  oooooti aa aeetttoddddddh hh abbbb,,,eeerrrrrrtwww hh hiybbccchllldhh  aau urrrrttwwddd nii hh tggggww,,
+
+
+rrrriiuuu womhhh.c,aapddd oorrrtttggeeennnnrryyyssssssssstts nn bbbhhhh aa h fffffttwwwdhhh iihh ucmmmmdddh hih heggooommddddrr iau uurtimmmdddd
+
+
+orrrriigg wwnnniiia hoooommmddhh haa iioo oiihh iiggeeooooddddhh ha a h wommhccc
+ppppoottth  ha  bbbbeeeeeeeeeeetttl  nn bbbhbbbylllrrrr fauu  rr uwwww,, aa 
+orrrrttgmmdddddiii ao rrttgggwwwddd nyiirr tgggg,,,,,
+
+
+
+python Generator_no_sig.py --model_dir "./modelli_colab/25000_hidden_units_236_layers_num=4" --chapter_seed "siddhartha had been"
+
+
+
+siddhartha had beenadddddnppppptttttttttbbbb.. yyccaeeeeeesdddddddddppppvavvttttttccccvv hoo eee  ddddddddpppppvvtttttttbbbc.. yccaaeee  thhaaiiiee  idd  lpppptttttttbbbbb.  cccaaeee  dddavvvvv  eeeaa ddddnpppppttttttttbbbb.. ycccaeeeeeetdddddddddpppvvvahhhe  eeaudddunnnnnsssssoooooovvhh ,,,,usssnnssssooooovvoeeeeeooudddaannanv va  ee  eeaadddddnnnnsssssyyyoooohhhh  ,,uuuussnssssoooooovve ,,,,ssaannnssssyyyooovhhhe  ,,uuuunnsssssoooooovve, ,,,aaaaaavvve eeee gddddddddppppavvattttttcccvv oooee  ttidddunnnnsssssoooooovvhh, ,,uusssnnsssooooovvve  ,,uusssnnnoooovvve  eeaau,dunnnssssssyooooovvhh,  ,uusssssoooooovve   oomasgiiiiiiiee   dll tttttttcccccv hho ,,eeaadddddnppppvttttttttbbbb.. yycmmmhhh  o,hhaaidddduunppptttttttttbbbc.. yccaaeeee eddddddddddvvvaaann cmtt  ect teeeiiidddddnpppppavtttttttbbb... cccaaeeee edddddddddvvvaaann cctteeettaddddwwppvaavtttttccctttttccccvvee  tuuuhhhho,,dduusnsssssooooooovhe   ,,ssssssnoooooovve   ,,sssssdooooovvv  hh,, ,sussnnssssoooooovve  ,,,sssssnnnoooovvve  ,uuuusssnsooooovvve  ,ouaahhhxeee  ddddddpppppppttttttbbbbb.. yycmmmm, oomme  ooheee   ddddd
+
+
+python generate_chapter.py --model_dir "./modelli_colab/100000_hidden_units_128_layers_num=2" --chapter_seed "siddhartha had been"
+
+
+siddhartha had beenohedwehehbyb hse bthbh hyk hshl hheeehcyherwtth  h  sh sgbgeewwelerffrtfbbbsssbshthhh wssh nhyh whhe baah errrtrpttt dih ii,  ,akl rpfafpttdnenttsshnnstssswhsbsssshebbthhhb,b,hh fyrrutwdwdddyhahr 
+t
+  eer wtgv wnggwt
+w
+wwwwdhiagggwpwwnnihhi ggsggl, aha  
+fuur wigmdm,
+ddo
+rrrotitg  hnev tbwgeeerplswlwt ha bvyrr byegswhl byh hhy. bsyhshwshlb fyh rfbh.bbbbhhhr,,,hu huf rrrrmiidmmddhrrriruudwwdnhh, 
+a anhn a  uaoodid
+
+
+python Generator_no_sig.py --model_dir "./modelli_colab/100000_batch_size_50_crop_80" --chapter_seed "siddhartha had been"
+
+
+siddhartha had been the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was the servant of the samanas a lother and was
+
+
+python Generator_no_sig.py --model_dir "./modelli_colab/2500_grandedataser_--num_epochs 2500 --alphabet_len 30 --batchsize 100 --crop_len=50" --chapter_seed "siddhartha had been"
+
+siddhartha had been the samanas and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was not a serface and siddhartha was
+
+
+python generate_chapter.py --model_dir "./modelli_colab/2500_grandedataser_--num_epochs 2500 --alphabet_len 30 --batchsize 100 --crop_len=50" --chapter_seed "siddhartha had been"
+
+
+siddhartha had beent tell,a silgeines,that,her telenge abling
+all a self has a singe tourst,hers aloust tougist teath had sampertand,wat has now
+to
+hass the
+saraity
+this hast of had,she havollowed had,stalkind,timarind ouge,the roway,whenersell,will
+thim,tis on here welt,this
+sittly.es,anceeded,also
+a patter offer it,hild
+a liffen allothind. 
+i almothis,him telched to
+heart to telk.  to byen alr oncinest to
+toman he
+saw tilents
+an unduse to
+saw,a siddhill,and teacises teace,his,sat had
+sillete bechore as till.,
+bechirghers tour to stay,till. 
+i wisersess,wald had
+are
+
+
+
+10000_--num_epochs 2500 --alphabet_len 30 --batchsize 100 --crop_len=50
+
+
+python generate_chapter.py --model_dir "./modelli_colab/10000_--num_epochs 2500 --alphabet_len 30 --batchsize 100 --crop_len=50" --chapter_seed "siddhartha had been"

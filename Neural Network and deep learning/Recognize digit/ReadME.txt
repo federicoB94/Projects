@@ -1,0 +1,1 @@
+To get the real value of accuracy the network must be feeded with some data that have the rotation equal to the rotation given by the ".mat" file that is given for the learning.

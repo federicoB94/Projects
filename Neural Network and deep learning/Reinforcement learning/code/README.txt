@@ -1,0 +1,1 @@
+The trining.py file implement the same complex grid discussed in the document with swamp and wall
